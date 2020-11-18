@@ -11,3 +11,29 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  color: rgb(50,50,50);
+}
+
+.rest-link {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.review-container {
+  background-color: rgb(235,235,235);
+  width: 400px;
+  margin: 10px auto 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 6px rgba(40,40,40,0.1);
+}
+
+i {
+  font-size: 14px;
+}

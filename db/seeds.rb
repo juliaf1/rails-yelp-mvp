@@ -8,7 +8,7 @@ puts "Creating fake restaurants..."
   new_rest = Restaurant.create(
     name: Faker::Cannabis.brand,
     address: Faker::Address.street_address,
-    phone_number: Faker::PhoneNumber,
+    phone_number: Faker::PhoneNumber.phone_number,
     category: ["chinese", "italian", "japanese", "french", "belgian"].sample
     )
 
